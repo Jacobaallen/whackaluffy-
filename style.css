@@ -1,0 +1,46 @@
+body {
+  background-color: aquamarine;
+  text-align: center;
+}
+
+button {
+  width: 10%;
+  height: 2em;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.guac-bowl {
+  height: 250px;
+  width: 30%;
+  position: relative;
+  overflow: hidden;
+}
+
+.bowl {
+  width: 200px;
+  z-index: 10;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: 0 auto;
+}
+
+.avocado {
+  z-index: 0;
+  position: absolute;
+  bottom: -50px;
+  transition:all 0.4s;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.up {
+  bottom: 50px;
+}
