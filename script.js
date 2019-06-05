@@ -1,4 +1,4 @@
-const avocados      = document.querySelectorAll('.luffy')
+const luffy = document.querySelectorAll('.luffy')
 const scoreBoard    = document.querySelector('#score')
 let remainingPeeps, score
 
